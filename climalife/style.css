@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf7e6;
+}
+
+header {
+    background-color: #2d4821;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.compra {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cantidad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cantidad button {
+    background-color: #4CAF50;
+    color: black;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#cantidad {
+    font-size: 24px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8bf75d;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.campo label {
+    font-size: 18px;
+}
+
+.campo input {
+    width: 60%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c6f7a8;
+}
+
+.buy-now {
+    background-color: #4CAF50;
+    color: #e6ffcc;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.pago {
+    background-color: #2d4821;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.oculto {
+    display: none;
+}
